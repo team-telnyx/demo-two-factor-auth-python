@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    </head>
+    <body class="container">
+        <div class="row mt-5 text-center">
+            <div class="col">
+                <h1>OTP SMS Demo</h1>
+            </div>
+        </div>
+        <form action="/request" method="POST" class="form-inline justify-content-center">
+                <label for="phone" class="mr-4">Enter your phone number</label>
+                <input type="text" name="phone" class="form-control mr-4"/>
+                <button class="btn btn-primary" action="submit">Request token</button>
+        </form>
+    </body>
+</html>
