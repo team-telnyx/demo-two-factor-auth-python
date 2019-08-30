@@ -1,15 +1,5 @@
 # Two factor authentication with Telnyx
 
-## Environment setup
-
-To setup our environment, we’re going to install the appropriate packages into a new `virtualenv`. Virtualenvs allow us to keep Python dependencies independent from project to project.
-
-    virtualenv --no-site-packages .otp_env
-    . .otp_env/bin/activate
-    pip install telnyx, Flask
-
-We're using the Telnyx python library along with Flask, which will allow us to serve simple HTTP pages.
-
 ## Configuration
 
 
