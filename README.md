@@ -3,7 +3,7 @@
 ## Configuration
 
 
-Create a `config.cfg` file in your project directory. Flask will load this at startup. First, head into the Telnyx portal, provision an SMS number and messaging profile `<link>`, and create an API key `<link>`. Then add those to the config file.
+Create a `config.cfg` file in your project directory. Flask will load this at startup. First, use [this](https://developers.telnyx.com/docs/v2/messaging/quickstarts/portal-setup) guide to provision an SMS number and messaging profile, and create an API key. Then add those to the config file.
 
     API_KEY='YOUR_API_KEY'
     FROM_NUMBER='YOUR_TELNYX_NUMBER'
